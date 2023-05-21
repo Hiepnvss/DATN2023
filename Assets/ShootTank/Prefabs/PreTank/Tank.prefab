@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &96648205329330001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 96648205329330012}
+  - component: {fileID: 96648205329330015}
+  - component: {fileID: 96648205329330010}
+  - component: {fileID: 96648205329330011}
+  - component: {fileID: 96648205329330014}
+  - component: {fileID: 96648205329330013}
+  - component: {fileID: 96648205329330008}
+  - component: {fileID: 1774587659400388102}
+  - component: {fileID: 361608363960954725}
+  m_Layer: 8
+  m_Name: Tank
+  m_TagString: Tank
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &96648205329330012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96648205329330001}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &96648205329330015
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96648205329330001}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -209284279
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 0d2cbaf747f949d44b05636aae0febad, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.4, y: 0.4}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &96648205329330010
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96648205329330001}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.4}
+    newSize: {x: 0.4, y: 0.4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.36, y: 0.36}
+  m_EdgeRadius: 0.02
+--- !u!50 &96648205329330011
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96648205329330001}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &96648205329330014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96648205329330001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da5eb7e0ca34bf48bbab85991e56163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tankManager: {fileID: 96648205329330008}
+  layerMAP:
+    serializedVersion: 2
+    m_Bits: 0
+  isMove: 0
+  speed: 2
+  MoveTop: 0
+  MoveDown: 0
+  MoveLeft: 0
+  MoveRight: 0
+  direct: 0
+--- !u!114 &96648205329330013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96648205329330001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071d02988b380ff4e8b498aaf0463c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tankManager: {fileID: 96648205329330008}
+  bullet: {fileID: 4166778006036546348, guid: a8615727c8b1d874288bb7e243167c8f, type: 3}
+  projectilePower: {fileID: 4166778006036546348, guid: a8615727c8b1d874288bb7e243167c8f,
+    type: 3}
+  countBullet: 3
+  speedBullet: 2
+  isShoot: 1
+--- !u!114 &96648205329330008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96648205329330001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb263e33b270f3c46a9bc8f5b5254987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeEntity: 0
+  typeTank: 0
+  typeTankEnemy: 0
+  behaviorTree: {fileID: 361608363960954725}
+  tankShoot: {fileID: 96648205329330013}
+  tankMove: {fileID: 96648205329330014}
+  tankEffect: {fileID: 1774587659400388102}
+  sprTank: {fileID: 96648205329330015}
+  layerRaycast:
+    serializedVersion: 2
+    m_Bits: 30976
+  directMove: 0
+  listSprTankGreen:
+  - {fileID: -1496731472, guid: bcc3a296ea68f8e4d9a05dffc5b37861, type: 3}
+  - {fileID: -1277727428, guid: 699b9ad45f597ba44b448445abdd2941, type: 3}
+  - {fileID: -7286715364330517300, guid: 4afb502e0f2951e4a88eac892498d123, type: 3}
+  - {fileID: 15701106, guid: 1681a11b322f0ff41a84151fc2adbb6c, type: 3}
+  - {fileID: 7477936996915351705, guid: 6193aee8f89f2664894e579905477827, type: 3}
+  listSprTankYellow:
+  - {fileID: -2116898119, guid: bcc3a296ea68f8e4d9a05dffc5b37861, type: 3}
+  - {fileID: -1187588448, guid: 699b9ad45f597ba44b448445abdd2941, type: 3}
+  - {fileID: -6463701646017463197, guid: 4afb502e0f2951e4a88eac892498d123, type: 3}
+  - {fileID: 23318301, guid: 1681a11b322f0ff41a84151fc2adbb6c, type: 3}
+  - {fileID: 7109356620385818010, guid: 6193aee8f89f2664894e579905477827, type: 3}
+  listSprTankRed:
+  - {fileID: -510500943, guid: bcc3a296ea68f8e4d9a05dffc5b37861, type: 3}
+  - {fileID: 2033066429, guid: 699b9ad45f597ba44b448445abdd2941, type: 3}
+  - {fileID: -5629198908654744382, guid: 4afb502e0f2951e4a88eac892498d123, type: 3}
+  - {fileID: 900607497, guid: 1681a11b322f0ff41a84151fc2adbb6c, type: 3}
+  - {fileID: 4744865958546223828, guid: 6193aee8f89f2664894e579905477827, type: 3}
+  listSprTankEnemy:
+  - {fileID: 103507835, guid: bcc3a296ea68f8e4d9a05dffc5b37861, type: 3}
+  - {fileID: -748364070, guid: 699b9ad45f597ba44b448445abdd2941, type: 3}
+  - {fileID: -847899077, guid: 4afb502e0f2951e4a88eac892498d123, type: 3}
+  - {fileID: 1781999990, guid: 1681a11b322f0ff41a84151fc2adbb6c, type: 3}
+  - {fileID: 709154274399542407, guid: 6193aee8f89f2664894e579905477827, type: 3}
+--- !u!114 &1774587659400388102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96648205329330001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2001b51bdbbd1624a96ad1a721de45a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listPsTankDie:
+  - {fileID: 19800010, guid: dd20b2708ba5b4e7f997cad4b700fcc8, type: 3}
+  - {fileID: 19800006, guid: 9bb1a39c9ee3c4198bc733e1538578eb, type: 3}
+  - {fileID: 19800010, guid: aa85b97c9c6d544be892a525ceebec93, type: 3}
+--- !u!114 &361608363960954725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96648205329330001}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(691,202)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-5.80808258,123.686874)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-209.949478,112.929306)"},"ID":2,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(15.8333359,156.666672)"},"ID":3,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-6.6668396,259.384)"},"ID":4,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1960.871,271.147522)"},"ID":5,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CheckGround","NodeData":{"Offset":"(-376.36377,127.649506)"},"ID":6,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Top","Singledistance":1,"BooleancheckTank":false,"BooleancheckElement":false,"BooleancheckWall":true},{"Type":"CheckGround","NodeData":{"Offset":"(-248.636536,231.818115)"},"ID":7,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Down","Singledistance":1,"BooleancheckTank":false,"BooleancheckElement":false,"BooleancheckWall":true},{"Type":"CheckGround","NodeData":{"Offset":"(-118.636482,345.909058)"},"ID":8,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Left","Singledistance":1,"BooleancheckTank":false,"BooleancheckElement":false,"BooleancheckWall":true},{"Type":"CheckGround","NodeData":{"Offset":"(-2.72742271,446.818)"},"ID":9,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Right","Singledistance":1,"BooleancheckTank":false,"BooleancheckElement":false,"BooleancheckWall":true},{"Type":"TaskShoot","NodeData":{"Offset":"(120,650)"},"ID":10,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0},{"Type":"TaskMovement","NodeData":{"Offset":"(252.6462,651.257263)"},"ID":11,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Top","BooleanisMove":true,"BooleanisRandomMove":false,"SingletimeMove":3,"SinglecoumtTime":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1424.9353,312.828461)"},"ID":12,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CheckGround","NodeData":{"Offset":"(-173.808777,265.238342)"},"ID":13,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Top","Singledistance":1,"BooleancheckTank":true,"BooleancheckElement":false,"BooleancheckWall":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(67.16724,260.590332)"},"ID":14,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"TaskShoot","NodeData":{"Offset":"(-120,190)"},"ID":15,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0},{"Type":"TaskMovement","NodeData":{"Offset":"(71.70239,193.938934)"},"ID":16,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Top","BooleanisMove":true,"BooleanisRandomMove":false,"SingletimeMove":3,"SinglecoumtTime":0}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1040.68274,358.190521)"},"ID":17,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CheckGround","NodeData":{"Offset":"(-130,190)"},"ID":18,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Down","Singledistance":1,"BooleancheckTank":true,"BooleancheckElement":false,"BooleancheckWall":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(70,260)"},"ID":19,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"TaskShoot","NodeData":{"Offset":"(-120,170)"},"ID":20,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0},{"Type":"TaskMovement","NodeData":{"Offset":"(69.99994,180)"},"ID":21,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Down","BooleanisMove":true,"BooleanisRandomMove":false,"SingletimeMove":3,"SinglecoumtTime":0}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-650.688965,352.758545)"},"ID":22,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CheckGround","NodeData":{"Offset":"(-130,190)"},"ID":23,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Left","Singledistance":1,"BooleancheckTank":true,"BooleancheckElement":false,"BooleancheckWall":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(70,260)"},"ID":24,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"TaskShoot","NodeData":{"Offset":"(-120,170)"},"ID":25,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0},{"Type":"TaskMovement","NodeData":{"Offset":"(70,180)"},"ID":26,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Left","BooleanisMove":true,"BooleanisRandomMove":false,"SingletimeMove":3,"SinglecoumtTime":0}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-208.9649,360)"},"ID":27,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CheckGround","NodeData":{"Offset":"(-130,190)"},"ID":28,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Right","Singledistance":1,"BooleancheckTank":true,"BooleancheckElement":false,"BooleancheckWall":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(70,260)"},"ID":29,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"TaskShoot","NodeData":{"Offset":"(-120,170)"},"ID":30,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0},{"Type":"TaskMovement","NodeData":{"Offset":"(70.00012,180)"},"ID":31,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Right","BooleanisMove":true,"BooleanisRandomMove":false,"SingletimeMove":3,"SinglecoumtTime":0}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(790,280)"},"ID":32,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-520,380)"},"ID":33,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CheckGround","NodeData":{"Offset":"(-130,190)"},"ID":34,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Top","Singledistance":1,"BooleancheckTank":false,"BooleancheckElement":true,"BooleancheckWall":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(70,260)"},"ID":35,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(-248.265259,128.576416)"},"ID":36,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"TaskShoot","NodeData":{"Offset":"(-176.818161,201.363632)"},"ID":37,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0}]},{"Type":"TaskMovement","NodeData":{"Offset":"(-23.0232258,156.7442)"},"ID":38,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Top","BooleanisMove":true,"BooleanisRandomMove":false,"SingletimeMove":3,"SinglecoumtTime":0}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-140,430)"},"ID":39,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CheckGround","NodeData":{"Offset":"(-130,190)"},"ID":40,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Down","Singledistance":1,"BooleancheckTank":false,"BooleancheckElement":true,"BooleancheckWall":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(70,260)"},"ID":41,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(-131.628082,183.0234)"},"ID":42,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"TaskShoot","NodeData":{"Offset":"(-140,220)"},"ID":43,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0}]},{"Type":"TaskMovement","NodeData":{"Offset":"(70,180)"},"ID":44,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Down","BooleanisMove":true,"BooleanisRandomMove":false,"SingletimeMove":3,"SinglecoumtTime":0}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(250,420)"},"ID":45,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CheckGround","NodeData":{"Offset":"(-130,190)"},"ID":46,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Left","Singledistance":1,"BooleancheckTank":false,"BooleancheckElement":true,"BooleancheckWall":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(70,260)"},"ID":47,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(-91.39543,223.256042)"},"ID":48,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"TaskShoot","NodeData":{"Offset":"(-90,190)"},"ID":49,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0}]},{"Type":"TaskMovement","NodeData":{"Offset":"(70,180)"},"ID":50,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Left","BooleanisMove":true,"BooleanisRandomMove":false,"SingletimeMove":3,"SinglecoumtTime":0}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(690,430)"},"ID":51,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CheckGround","NodeData":{"Offset":"(-130,190)"},"ID":52,"Name":"Check
+        Ground","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecCheck":"Right","Singledistance":1,"BooleancheckTank":false,"BooleancheckElement":true,"BooleancheckWall":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(70.00012,260)"},"ID":53,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(-151.271759,209.16861)"},"ID":54,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"TaskShoot","NodeData":{"Offset":"(-80,170)"},"ID":55,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0}]},{"Type":"TaskMovement","NodeData":{"Offset":"(103.333344,224.444458)"},"ID":56,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Right","BooleanisMove":true,"BooleanisRandomMove":false,"SingletimeMove":3,"SinglecoumtTime":0}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(2010,700)"},"ID":57,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(-113.414627,210)"},"ID":58,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"TaskShoot","NodeData":{"Offset":"(-70,400)"},"ID":59,"Name":"Task
+        Shoot","Instant":true,"TankEnemytankEnemy":62,"BooleanisShoot":true,"SingletimeShoot":3,"SinglecountTime":0},{"Type":"TaskChangeDirection","NodeData":{"Offset":"(160.000015,228.780518)"},"ID":60,"Name":"Task
+        Change Direction","Instant":true,"TankEnemytankEnemy":62}]},{"Type":"TaskMovement","NodeData":{"Offset":"(100,220)"},"ID":61,"Name":"Task
+        Movement","Instant":true,"TankEnemytankEnemy":62,"DirectMovedirecMove":"Right","BooleanisMove":true,"BooleanisRandomMove":true,"SingletimeMove":3,"SinglecoumtTime":0}]}]}]},{"Type":"TankEnemy","NodeData":{"Offset":"(209.646484,179.494934)"},"ID":62,"Name":"Tank
+        Enemy","Instant":true}]},"DetachedTasks":[{"Type":"TaskChangeDirection","NodeData":{"Offset":"(890,1990)"},"ID":63,"Name":"Task
+        Change Direction","Instant":true,"TankEnemytankEnemy":62},{"Type":"TaskChangeDirection","NodeData":{"Offset":"(1380,2130)"},"ID":64,"Name":"Task
+        Change Direction","Instant":true,"TankEnemytankEnemy":62},{"Type":"TaskChangeDirection","NodeData":{"Offset":"(1800,2110)"},"ID":65,"Name":"Task
+        Change Direction","Instant":true,"TankEnemytankEnemy":62},{"Type":"TaskChangeDirection","NodeData":{"Offset":"(2250,2100)"},"ID":66,"Name":"Task
+        Change Direction","Instant":true,"TankEnemytankEnemy":62}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.2
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1

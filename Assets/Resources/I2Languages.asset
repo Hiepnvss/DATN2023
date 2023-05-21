@@ -1,0 +1,543 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: Back Home
+      TermType: 0
+      Description: 
+      Languages:
+      - Back Home
+      - "Tho\xE1t"
+      - "Zur\xFCck Zuhause"
+      - De Vuelta A Casa
+      - "Retour \xC0 La Maison"
+      - Ritorno A Casa
+      - De Volta Para Casa
+      - "\uC9D1\uC73C\uB85C \uB3CC\uC544\uAC00"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Bonus
+      TermType: 0
+      Description: 
+      Languages:
+      - Bonus
+      - "Th\u01B0\u1EDFng"
+      - Bonus
+      - Prima
+      - Prime
+      - Bonus
+      - "B\xF4nus"
+      - "\uBCF4\uB108\uC2A4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Bullet speed
+      TermType: 0
+      Description: 
+      Languages:
+      - Bullet speed
+      - "T\u1ED1c \u0111\u1ED9 \u0111\u1EA1n"
+      - Geschossgeschwindigkeit
+      - Velocidad de bala
+      - Vitesse de balle
+      - "Velocit\xE0 del proiettile"
+      - Velocidade da bala
+      - "\uCD1D\uC54C \uC18D\uB3C4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: CONTINUE
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue
+      - "Ti\u1EBFp T\u1EE5c"
+      - Weitermachen
+      - Continuar
+      - Continuer
+      - Continua
+      - Continuar
+      - "\uACC4\uC18D\uD558\uB2E4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Color
+      TermType: 0
+      Description: 
+      Languages:
+      - Color
+      - "M\xE0u"
+      - Farbe
+      - Color
+      - Couleur
+      - Colore
+      - Cor
+      - "\uC0C9\uC0C1"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Do you want Exit ?
+      TermType: 0
+      Description: 
+      Languages:
+      - Do you want Exit ?
+      - "B\u1EA1n c\xF3 mu\u1ED1n tho\xE1t?"
+      - Willst du beenden?
+      - "\xBFQuieres Salir?"
+      - Voulez-vous Quitter ?
+      - Vuoi uscire?
+      - "Voc\xEA quer Sair?"
+      - "\uB098\uAC00\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Exit
+      TermType: 0
+      Description: 
+      Languages:
+      - Exit
+      - "Tho\xE1t"
+      - Ausfahrt
+      - Salida
+      - Sortie
+      - Uscita
+      - "Sa\xEDda"
+      - "\uCD9C\uAD6C"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Language
+      TermType: 0
+      Description: 
+      Languages:
+      - Language
+      - "Ng\xF4n Ng\u1EEF"
+      - Sprache
+      - Idioma
+      - Langue
+      - Lingua
+      - Linguagem
+      - "\uC5B8\uC5B4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Level
+      TermType: 0
+      Description: 
+      Languages:
+      - Level
+      - "M\xE0n"
+      - Eben
+      - Nivel
+      - Niveau
+      - Livello
+      - "N\xEDvel"
+      - "\uC218\uC900"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Max upgrade
+      TermType: 0
+      Description: 
+      Languages:
+      - Max upgrade
+      - "N\xE2ng c\u1EA5p t\u1ED1i \u0111a"
+      - Maximales Upgrade
+      - "Actualizaci\xF3n m\xE1xima"
+      - "Mise \xE0 niveau maximale"
+      - Aggiornamento massimo
+      - "atualiza\xE7\xE3o m\xE1xima"
+      - "\uCD5C\uB300 \uC5C5\uADF8\uB808\uC774\uB4DC"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Music
+      TermType: 0
+      Description: 
+      Languages:
+      - Music
+      - "\xC2m Nh\u1EA1c"
+      - Musik
+      - "M\xFAsica"
+      - Musique
+      - Musica
+      - "M\xFAsica"
+      - "\uC74C\uC545"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Not enough coin
+      TermType: 0
+      Description: 
+      Languages:
+      - Not enough coin
+      - "Kh\xF4ng \u0111\u1EE7 xu"
+      - "Nicht genug M\xFCnze"
+      - No hay suficiente moneda
+      - Pas assez de monnaie
+      - Moneta insufficiente
+      - Moeda insuficiente
+      - "\uCF54\uC778\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Notice
+      TermType: 0
+      Description: 
+      Languages:
+      - Notice
+      - "Th\xF4ng b\xE1o"
+      - Notiz
+      - Aviso
+      - Avis
+      - Avviso
+      - Perceber
+      - "\uC54C\uC544\uCC44\uB2E4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: OK
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - Ok
+      - OK
+      - OK
+      - D'accord
+      - OK
+      - OK
+      - "\uC88B\uC544\uC694"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Off
+      TermType: 0
+      Description: 
+      Languages:
+      - Off
+      - "T\u1EAFt"
+      - Aus
+      - Apagado
+      - "D\xE9sactiv\xE9"
+      - Spento
+      - Desligado
+      - "\uB044\uB2E4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Ok, I got it
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok, I got it
+      - "Ok, t\xF4i hi\u1EC3u r\u1ED3i"
+      - OK ich habe es
+      - bien, lo tengo
+      - OK j'ai compris
+      - Ok ho capito
+      - OK, entendi
+      - "\uC54C\uACA0\uC2B5\uB2C8\uB2E4. \uC54C\uACA0\uC2B5\uB2C8\uB2E4."
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: On
+      TermType: 0
+      Description: 
+      Languages:
+      - On
+      - "B\u1EADt"
+      - An
+      - En
+      - Sur
+      - SU
+      - Sobre
+      - "~\uC5D0"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Out
+      TermType: 0
+      Description: 
+      Languages:
+      - Out
+      - "Tho\xE1t"
+      - Aus
+      - Afuera
+      - Dehors
+      - Fuori
+      - Fora
+      - "\uBC16\uC73C\uB85C"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Play now
+      TermType: 0
+      Description: 
+      Languages:
+      - Play now
+      - "Ch\u01A1i ngay"
+      - Jetzt spielen
+      - Reproducir ahora
+      - Joue maintenant
+      - Riproduci ora
+      - Jogue agora
+      - "\uC9C0\uAE08 \uD50C\uB808\uC774"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Replay
+      TermType: 0
+      Description: 
+      Languages:
+      - Replay
+      - "Ch\u01A1i L\u1EA1i"
+      - Wiederholung
+      - "Repetici\xF3n"
+      - Rejouer
+      - Rigiocare
+      - Repetir
+      - "\uB2E4\uC2DC \uD558\uB2E4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Select Level
+      TermType: 0
+      Description: 
+      Languages:
+      - Select Level
+      - "Ch\u1ECDn C\u1EA5p \u0110\u1ED9"
+      - "Stufe Ausw\xE4hlen"
+      - Selecciona El Nivel
+      - Choisir Le Niveau
+      - Seleziona Livello
+      - "Selecione O N\xEDvel"
+      - "\uB808\uBCA8 \uC120\uD0DD"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Setting
+      TermType: 0
+      Description: 
+      Languages:
+      - Setting
+      - "C\xE0i \u0110\u1EB7t"
+      - Einstellung
+      - "Configuraci\xF3n"
+      - "Param\xE8tre"
+      - Collocamento
+      - Contexto
+      - "\uD658\uACBD"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Sound
+      TermType: 0
+      Description: 
+      Languages:
+      - Sound
+      - "\xC2m Thanh"
+      - Klang
+      - Sonido
+      - Son
+      - Suono
+      - Som
+      - "\uC18C\uB9AC"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Tank information
+      TermType: 0
+      Description: 
+      Languages:
+      - Tank information
+      - "Th\xF4ng tin xe t\u0103ng"
+      - Tankinformationen
+      - "Informaci\xF3n del tanque"
+      - "Informations sur le r\xE9servoir"
+      - Informazioni sul serbatoio
+      - "Informa\xE7\xF5es do tanque"
+      - "\uD0F1\uD06C \uC815\uBCF4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Tank speed
+      TermType: 0
+      Description: 
+      Languages:
+      - Tank speed
+      - "T\u1ED1c \u0111\u1ED9 xe t\u0103ng"
+      - Panzergeschwindigkeit
+      - Velocidad del tanque
+      - "Vitesse du r\xE9servoir"
+      - "Velocit\xE0 del serbatoio"
+      - Velocidade do tanque
+      - "\uD0F1\uD06C \uC18D\uB3C4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Time reload bullet
+      TermType: 0
+      Description: 
+      Languages:
+      - Time reload bullet
+      - "Th\u1EDDi gian n\u1EA1p \u0111\u1EA1n"
+      - Zeit, Kugel nachzuladen
+      - Bala de recarga de tiempo
+      - Balle de rechargement du temps
+      - Il tempo ricarica il proiettile
+      - Marcador de recarga de tempo
+      - "\uC2DC\uAC04 \uC7AC\uC7A5\uC804 \uCD1D\uC54C"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Upgrade
+      TermType: 0
+      Description: 
+      Languages:
+      - Upgrade
+      - "N\xE2ng C\u1EA5p"
+      - Aktualisierung
+      - Mejora
+      - "Am\xE9liorer"
+      - Aggiornamento
+      - Atualizar
+      - "\uC5C5\uADF8\uB808\uC774\uB4DC"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: YOU LOSE
+      TermType: 0
+      Description: 
+      Languages:
+      - You Lose
+      - "B\u1EA1n \u0110\xE3 Thua"
+      - Du Verlierst
+      - "T\xFA Pierdes"
+      - Tu As Perdu
+      - Hai Perso
+      - "Voc\xEA Perdeu"
+      - "\uB2F9\uC2E0\uC740 \uD328\uBC30"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: YOU WIN
+      TermType: 0
+      Description: 
+      Languages:
+      - You Win
+      - "B\u1EA1n Th\u1EAFng"
+      - Du Gewinnst
+      - "T\xFA Ganas"
+      - Vous Gagnez
+      - Hai Vinto
+      - "Voc\xEA Ganha"
+      - "\uB124\uAC00 \uC774\uACBC\uB2E4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: You need to pass previous levels to be able to play this level
+      TermType: 0
+      Description: 
+      Languages:
+      - You need to pass previous levels to be able to play this level
+      - "B\u1EA1n c\u1EA7n ph\u1EA3i v\u01B0\u1EE3t qua c\xE1c c\u1EA5p \u0111\u1ED9
+        tr\u01B0\u1EDBc \u0111\xF3 \u0111\u1EC3 c\xF3 th\u1EC3 ch\u01A1i c\u1EA5p
+        \u0111\u1ED9 n\xE0y"
+      - "Sie m\xFCssen vorherige Level bestehen, um dieses Level spielen zu k\xF6nnen"
+      - Necesitas pasar niveles anteriores para poder jugar este nivel
+      - "Vous devez passer les niveaux pr\xE9c\xE9dents pour pouvoir jouer \xE0 ce
+        niveau"
+      - Devi superare i livelli precedenti per poter giocare a questo livello
+      - "Voc\xEA precisa passar dos n\xEDveis anteriores para poder jogar este n\xEDvel"
+      - "\uC774 \uB808\uBCA8\uC744 \uD50C\uB808\uC774\uD558\uB824\uBA74 \uC774\uC804
+        \uB808\uBCA8\uC744 \uD1B5\uACFC\uD574\uC57C \uD569\uB2C8\uB2E4."
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: no
+      TermType: 0
+      Description: 
+      Languages:
+      - No
+      - "KH\xD4NG"
+      - NEIN
+      - No
+      - Non
+      - NO
+      - "n\xE3o"
+      - "\uC544\uB2C8\uC694"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: ok
+      TermType: 0
+      Description: 
+      Languages:
+      - ok
+      - ok
+      - OK
+      - OK
+      - d'accord
+      - OK
+      - OK
+      - "\uC88B\uC544\uC694"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: yes
+      TermType: 0
+      Description: 
+      Languages:
+      - yes
+      - "C\xF3"
+      - Ja
+      - "S\xED"
+      - Oui
+      - "S\xCC"
+      - sim
+      - "\uC608"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Pause
+      TermType: 0
+      Description: 
+      Languages:
+      - Pause
+      - "T\u1EA1m D\u1EEBng"
+      - Pause
+      - Pausa
+      - Pause
+      - Pausa
+      - Pausa
+      - "\uC815\uC9C0\uC2DC\uD0A4\uB2E4"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Vietnamese
+      Code: vi
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Spanish (Mexico)
+      Code: es-MX
+      Flags: 0
+    - Name: French (France)
+      Code: fr-FR
+      Flags: 0
+    - Name: Italian (Italy)
+      Code: it-IT
+      Flags: 0
+    - Name: Portuguese (Portugal)
+      Code: pt-PT
+      Flags: 0
+    - Name: Korean
+      Code: ko
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbwQF0-LG9zd7A-WDt81iWzQwY98ymKdiFY9Jm9TE_YB-XjDj28FcMbeMFyA4-zFmXoslg/exec
+    Google_SpreadsheetKey: 1V_7gzCubvdL4PnF97odnzKacdgKdlT1pxGNBryeybQ0
+    Google_SpreadsheetName: I2Loc ShootTank Localization
+    Google_LastUpdatedVersion: 
+    Google_Password: 
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

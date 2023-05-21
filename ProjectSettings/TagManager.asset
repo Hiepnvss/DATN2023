@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tank
+  - Bullet
+  - BackGround
+  - Item
+  - ElementMap
+  - ElementWater
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Tank
+  - Bullet
+  - BackGround
+  - Item
+  - ElementMap
+  - ElementWater
+  - Wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1955641837
+    locked: 0
+  - name: Map
+    uniqueID: 2498237041
+    locked: 0
+  - name: Player
+    uniqueID: 4085683017
+    locked: 0
+  - name: Effect
+    uniqueID: 1793169245
+    locked: 0
+  - name: Canvas
+    uniqueID: 441788329
+    locked: 0

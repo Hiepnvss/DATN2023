@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94c5a72a3bfbd374eaa83e55462d3336, type: 3}
+  m_Name: SpriteTypeObjectMap
+  m_EditorClassIdentifier: 
+  ScriptableSpriteMapConfig:
+  - listSpritesObjectMap:
+    - {fileID: 21300000, guid: af522ad5a91d14f42958781ff609b267, type: 3}
+    - {fileID: 21300000, guid: fa2750d9e280c0e4c8be35826a74fba0, type: 3}
+    - {fileID: 21300000, guid: 0392996ff875f044ebefd682e094012f, type: 3}
+    - {fileID: 21300000, guid: 552fbda19f344cc4eb6581da18ed7cc5, type: 3}
+    - {fileID: 21300000, guid: 83607622f6b0b2347939b3eec6b60f78, type: 3}
+    - {fileID: 21300000, guid: 2122eea51917b26458352e4a6be9fccd, type: 3}
+    listGameObjectMap:
+    - {fileID: 1788099575974419155, guid: 1c26fcef05e00264b89ba2d3f4c4b93f, type: 3}
+    - {fileID: 3557430900821595410, guid: aecb4e8f11f3f584da764542f4e90e23, type: 3}
+    - {fileID: 8334366319338796032, guid: 8a97c988cc2ee06498aa4dda9871f23b, type: 3}
+    - {fileID: 3557430900821595410, guid: aecb4e8f11f3f584da764542f4e90e23, type: 3}
+    - {fileID: 8334366319338796032, guid: 8a97c988cc2ee06498aa4dda9871f23b, type: 3}
+    - {fileID: 8780467990211044454, guid: fac0b29c42b6a884a8f1013cc5e3c126, type: 3}
+    listSpriteShowInTank:
+    - {fileID: 21300000, guid: 4af6b7ac9b3f7174282dc5b5cf97c86f, type: 3}
+    - {fileID: 21300000, guid: a65ec1f68b6bf70438a05f3f2c8e5b36, type: 3}
+    - {fileID: 21300000, guid: 2d0c5e8f7991b854e87d70900066c1eb, type: 3}
+    - {fileID: 21300000, guid: a65ec1f68b6bf70438a05f3f2c8e5b36, type: 3}
+    - {fileID: 21300000, guid: 2d0c5e8f7991b854e87d70900066c1eb, type: 3}
+    - {fileID: 21300000, guid: 5062c52917020f74ba43acee6bf64a3e, type: 3}
+  - listSpritesObjectMap:
+    - {fileID: 21300000, guid: 970cffc4ca35b7145a4eaa807f154062, type: 3}
+    - {fileID: 21300000, guid: 9a7bea4b7e5b05d47860883ed229970e, type: 3}
+    - {fileID: 21300000, guid: d0faf4879f66d4c4b9898da21b213720, type: 3}
+    - {fileID: 21300000, guid: bd849a8499310a94da3d6aa93fc2fed0, type: 3}
+    - {fileID: 21300000, guid: 6584cd15272bbc048a19381913e031ef, type: 3}
+    - {fileID: 21300000, guid: a02a1e5f9f2187a419b92719495254dd, type: 3}
+    listGameObjectMap:
+    - {fileID: 1152035465044946548, guid: d6bfa8bd0e8634b469068dc494d959e3, type: 3}
+    - {fileID: 2653981291487098858, guid: e9b5ce1f3d2a6e1429f4ec9d3bfd2643, type: 3}
+    - {fileID: 6573942613435726901, guid: e92f45ed3974d8e488a7da6ca6623f78, type: 3}
+    - {fileID: 2653981291487098858, guid: e9b5ce1f3d2a6e1429f4ec9d3bfd2643, type: 3}
+    - {fileID: 6573942613435726901, guid: e92f45ed3974d8e488a7da6ca6623f78, type: 3}
+    - {fileID: 486438547292636552, guid: 81a092849d7072642b2d4e764a0cce9c, type: 3}
+    listSpriteShowInTank:
+    - {fileID: 21300000, guid: 2d064f2943cb08f4badb7b2f6e07e74a, type: 3}
+    - {fileID: 21300000, guid: 67bf64bd87a6b7b478d5d0e058ba15d0, type: 3}
+    - {fileID: 21300000, guid: 2af9d689515fd2b4dbd682fa9f65cf6c, type: 3}
+    - {fileID: 21300000, guid: 67bf64bd87a6b7b478d5d0e058ba15d0, type: 3}
+    - {fileID: 21300000, guid: 2af9d689515fd2b4dbd682fa9f65cf6c, type: 3}
+    - {fileID: 21300000, guid: b5848f138ca69be4bb84075dafc18322, type: 3}
+  - listSpritesObjectMap:
+    - {fileID: 21300000, guid: 97f9183fb5bd6344dba17a47e4c3b77a, type: 3}
+    - {fileID: 21300000, guid: ce24027e8d6fae2448fec09eccfc4fcb, type: 3}
+    - {fileID: 21300000, guid: 269c268c5c4d1a346ac2ddabf709199b, type: 3}
+    - {fileID: 21300000, guid: 73e2d525585aac1469e1143763ef1425, type: 3}
+    - {fileID: 21300000, guid: a5e4316849a395d46bbcb9cae6ff5731, type: 3}
+    - {fileID: 21300000, guid: 77f1aab8f61ee4649af257f6f179e986, type: 3}
+    listGameObjectMap:
+    - {fileID: 1152035465044946548, guid: e037d1efdd6ad4641b611eea853460d8, type: 3}
+    - {fileID: 4794198242206276289, guid: ce1f6ea0eb7a4194cae93ccc8b582486, type: 3}
+    - {fileID: 463017483701162485, guid: a42aa27a8ce3bf04987a9265fcc31e03, type: 3}
+    - {fileID: 4794198242206276289, guid: ce1f6ea0eb7a4194cae93ccc8b582486, type: 3}
+    - {fileID: 463017483701162485, guid: a42aa27a8ce3bf04987a9265fcc31e03, type: 3}
+    - {fileID: 3548508691974040391, guid: 49462f974b3d52f4e92e08c6ce11bfb0, type: 3}
+    listSpriteShowInTank:
+    - {fileID: 21300000, guid: 0cedc4b90b2dc0443a75f9c20a38d9bc, type: 3}
+    - {fileID: 21300000, guid: fde3bb60e3f93bb4dbd67a7ee007be17, type: 3}
+    - {fileID: 21300000, guid: 96c1fb2d5c6f33348871c290e4abb8d2, type: 3}
+    - {fileID: 21300000, guid: fde3bb60e3f93bb4dbd67a7ee007be17, type: 3}
+    - {fileID: 21300000, guid: 96c1fb2d5c6f33348871c290e4abb8d2, type: 3}
+    - {fileID: 21300000, guid: 0cd30e7856e8ecf48a3e0072ea087278, type: 3}
+  - listSpritesObjectMap:
+    - {fileID: 21300000, guid: a2d85f89ceabf9648a07bf1da324190f, type: 3}
+    - {fileID: 21300000, guid: c7c20aeca57244e4db0d5350fd127f5b, type: 3}
+    - {fileID: 21300000, guid: 52f3a924b13dd134b89cbc043241e0f3, type: 3}
+    - {fileID: 21300000, guid: 6f24d6d10e9cbd14399ea29eeaea9d18, type: 3}
+    - {fileID: 21300000, guid: 9657c00fb0b2c814f885a4f40ed89dd0, type: 3}
+    - {fileID: 21300000, guid: e7c7d3cde92add242a2b5a888fadcc4d, type: 3}
+    listGameObjectMap:
+    - {fileID: 1152035465044946548, guid: 5879b656cd59c224bb75f39a26bd0db4, type: 3}
+    - {fileID: 6436898032344323592, guid: 2aee5e248a543114b9c7dfc52050c248, type: 3}
+    - {fileID: 6540248576699152202, guid: db7889b7a76c9204381eb661e4bc1039, type: 3}
+    - {fileID: 6436898032344323592, guid: 2aee5e248a543114b9c7dfc52050c248, type: 3}
+    - {fileID: 6540248576699152202, guid: db7889b7a76c9204381eb661e4bc1039, type: 3}
+    - {fileID: 9154145226520504806, guid: c6bd0699f3223094dbf2a1c00f08e9f9, type: 3}
+    listSpriteShowInTank:
+    - {fileID: 21300000, guid: 9eb23f45f81256446b810b37863ed780, type: 3}
+    - {fileID: 21300000, guid: 1f6b1f3fa5597554d9d2e189abc45efe, type: 3}
+    - {fileID: 21300000, guid: bde6bcd890d0cf146b413665f3a6af9e, type: 3}
+    - {fileID: 21300000, guid: 1f6b1f3fa5597554d9d2e189abc45efe, type: 3}
+    - {fileID: 21300000, guid: bde6bcd890d0cf146b413665f3a6af9e, type: 3}
+    - {fileID: 21300000, guid: 9a81bda8bd9960142800744d0a54e602, type: 3}
+  - listSpritesObjectMap:
+    - {fileID: 21300000, guid: cf4ab4fac2ce14e478973e83336b5e69, type: 3}
+    - {fileID: 21300000, guid: fd7b666c4bdbcf64c97805f83d5ad24a, type: 3}
+    - {fileID: 21300000, guid: 7f5d3a41920989440a16f1b1c72b436a, type: 3}
+    - {fileID: 21300000, guid: af14bca414ab7e44792978e5640237d9, type: 3}
+    - {fileID: 21300000, guid: 71bb622a7e751dd40b9484c681d7e637, type: 3}
+    - {fileID: 21300000, guid: 7df533a231b9b5a49b867d144fcd8949, type: 3}
+    listGameObjectMap:
+    - {fileID: 1152035465044946548, guid: bfe9e6ed312c9574aa428fc50d118264, type: 3}
+    - {fileID: 1502698603870372290, guid: 71926c31a75e6a349a46b7ce12aba74f, type: 3}
+    - {fileID: 1108102199960602846, guid: ecd4c1b125d20fc49b975509ca5f7a31, type: 3}
+    - {fileID: 1502698603870372290, guid: 71926c31a75e6a349a46b7ce12aba74f, type: 3}
+    - {fileID: 1108102199960602846, guid: ecd4c1b125d20fc49b975509ca5f7a31, type: 3}
+    - {fileID: 7784839630964149828, guid: 79eb621340578fa47bdc53d457be8bac, type: 3}
+    listSpriteShowInTank:
+    - {fileID: 21300000, guid: da777f752c5cb69459514107c1b50cb0, type: 3}
+    - {fileID: 21300000, guid: 99eb8a0b79f8def4a877dcbb46aad40d, type: 3}
+    - {fileID: 21300000, guid: 9193854f5c1542f468cc883d480d85a5, type: 3}
+    - {fileID: 21300000, guid: 99eb8a0b79f8def4a877dcbb46aad40d, type: 3}
+    - {fileID: 21300000, guid: 9193854f5c1542f468cc883d480d85a5, type: 3}
+    - {fileID: 21300000, guid: 73a65550de447214888c342b4157b516, type: 3}
